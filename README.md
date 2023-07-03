@@ -44,4 +44,4 @@ In this challenge, I'll enhance my JavaScript skills and knowledge. Each day, I'
 5. Celebrate your achievements and reflect on your growth throughout the challenge.
 
 # Folder Structure
-
+[Day 1](https://github.com/Safa-Kamal-q/Mastering-JavaScript-in-20-Days/blob/main/Day%201.md) 
