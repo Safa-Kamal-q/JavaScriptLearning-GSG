@@ -9,9 +9,10 @@
 ## ✨️ First: Intoduction 
 **In this section I learnt about javaScript(JS) in general and where I can run JS code.**
 ### 📝 Notes:
-1. JS is dynamic and web programming landuage
-2. JS is compilation target which mean that JS can translate other languages to run in web like typeScript
-3. I can run JS code in connsole or on run server like node.js
+1. JS has been created in 1995 in ten days 
+2. JS is dynamic and web programming landuage
+3. JS is compilation target which mean that JS can translate other languages to run in web like typeScript
+4. I can run JS code in connsole or on run server like node.js
 
 ## ✨️ Second: DOM 
 **I leart how to access the HTML elements and how to change the web page.**
