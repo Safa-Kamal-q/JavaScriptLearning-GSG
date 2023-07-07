@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Day 2 </h1>
+<h1 align="center">🚀 Day 3 </h1>
 
 # course: [JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/)
 
