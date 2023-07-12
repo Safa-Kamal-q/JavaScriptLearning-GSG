@@ -11,6 +11,8 @@
 
 **4. Modules**
 
+**5. Debugging**
+
 ## ✨️ First: API
 **APIs: are services that are exposing a whole bunch of data at a certain UPLs**
 **JSON: JavaScript Object Notation**
@@ -22,9 +24,9 @@
       * Fulfilled: aka resolved finally get the value all done 
       * Rejected: sorry could not get the value all done
 3. Sometimes we want to wait for fetching data and then complete running the code, in this case we can use await keyword.
-4. We can use await keyword only in console or in a function that declare as async function.
-5. I can use json() method with data that we get from fetch to parse the data to a json object, this method will return a promise so I can use await with it.
-6. JS can only do one task at a time (“single-threaded”) 
+4. We can use await keyword only in a function that declare as async function, or if we want to use it in the top of code, I must make the type of js is module, the way will explain in modules
+8. I can use json() method with data that we get from fetch to parse the data to a json object, this method will return a promise so I can use await with it.
+9. JS can only do one task at a time (“single-threaded”) 
 
 ### Code Example:
 ```
@@ -286,7 +288,26 @@ console.log(`${fname}, ${age}, ${country}, ${fname1} ` );
 </html>
 ```
 ## ✨️ Forth: Module
-I will write it tomorrow
+**Modules: let us split big codebases across multiple file**
+### 📝 Notes:
+ 1. To convert the type of js into module I can make json file and in it I can write ```{"type": "module"}```
+ 2. When I use module the scope will have some changes
+ 3. Module script make us use import and export
+
+## ✨️ Fifth: Debugging
+### 📝 Notes:
+1. Ways to understand what happening when your program runs :
+  * console.log ()
+  * .warn()
+  * .error()
+2. You can use the browser's debugger to pause JS and inspect what's happening ```debuggers;```
+  * The debugger statement ctreats a breakpoin where JS will pause and let you look around  
+3. We can use try catch block with the code that we expected to throw an error 
+
 
 # 💪 Challenge Solutions:
+**[The assignment](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week1-day5-task/task.md)**
+
+**[My solution ](https://github.com/Safa-Kamal-q/projects-ExpressJS-training/tree/master/characterProject)**
+
 
