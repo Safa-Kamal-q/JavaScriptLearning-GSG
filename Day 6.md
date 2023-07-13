@@ -85,8 +85,17 @@ urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 [Third challenge: Learning sprint (1), week (2), day (1) delieverable](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day1-tasks/tasks.md#question-2-call-stack-and-recursion)
 
 **First Q**
+```
+const mapAsync = async (arr, callback) => await Promise.all(arr.map(callback));
 
-I didn't understand what the Question need
+const multipleBy2 = (num) => {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve(num * 2);
+        }, 1000);
+    })
+}
+```
 
 **Second Question**
 ```
