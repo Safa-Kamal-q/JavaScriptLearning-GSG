@@ -35,6 +35,10 @@
         anotherFunction();
         anotherFunction();
        ````
+4. The names that equal to ‘backpack’:
+   * Closed over ‘Variable Environment’ (C.O.V.E.)
+   * Persistent Lexical Scope Referenced Data (P.L.S.R.D.)
+   * Closure
 
 
 # 💪 Challenge Solutions:
